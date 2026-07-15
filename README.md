@@ -1,4 +1,4 @@
-# Any-Page Snake
+# Textbound
 
 Play Snake on any webpage by navigating the **gaps between words**. Text ink becomes the maze walls (laid out with [Pretext](https://github.com/chenglou/pretext)); the snake weaves through the open space on a full-page overlay.
 
@@ -20,7 +20,7 @@ After code changes, run `npm run build` again and hit **Reload** on the extensio
 - **Esc** or click the tab again — quit
 - Toolbar icon toggles the game on the current tab
 
-Hitting a word (highlighted tint) or your own body ends the run. The snake wraps at the viewport edges. Best score is saved in `chrome.storage.local`.
+Hitting a word (toggle for highlighted tint) or your own body ends the run. The snake wraps at the viewport edges. Best score is saved in `chrome.storage.local`.
 
 ## Develop
 
