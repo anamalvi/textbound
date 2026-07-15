@@ -1,0 +1,17 @@
+{
+  "name": "snake-extension",
+  "version": "1.1.0",
+  "description": "Play Snake on any page by navigating around the text.",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/content.js --bundle --outfile=dist/content.js --format=iife --target=chrome111",
+    "watch": "npm run build -- --watch"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@chenglou/pretext": "^0.0.8"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
